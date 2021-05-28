@@ -654,6 +654,8 @@ github.com/vultr/govultr/v2 v2.0.0 h1:+lAtqfWy3g9VwL7tT2Fpyad8Vv4MxOhT/NU8O5dk+E
 github.com/vultr/govultr/v2 v2.0.0/go.mod h1:2PsEeg+gs3p/Fo5Pw8F9mv+DUBEOlrNZ8GmCTGmhOhs=
 github.com/xaevman/lego/v4 v4.3.2 h1:O77JdPp7j1MBeqQPIYZy3gRbo3DKUP+Sr/vOr0533Uw=
 github.com/xaevman/lego/v4 v4.3.2/go.mod h1:DMZa1l0q0US6uzgCZ5tpjik8D8zUwgpUTxQy1ddHy20=
+github.com/xaevman/lego/v4 v4.3.3 h1:qFGFk5194mw5q3byYYxiGfPMFW1GkHOz7OGl1kqoiW8=
+github.com/xaevman/lego/v4 v4.3.3/go.mod h1:DMZa1l0q0US6uzgCZ5tpjik8D8zUwgpUTxQy1ddHy20=
 github.com/xanzy/ssh-agent v0.3.0 h1:wUMzuKtKilRgBAD1sUb8gOwwRr2FGoBVumcjoOACClI=
 github.com/xanzy/ssh-agent v0.3.0/go.mod h1:3s9xbODqPuuhK9JV1R321M/FlMZSBvE5aY6eAcqrDh0=
 github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f/go.mod h1:N2zxlSyiKSe5eX1tZViRH5QA0qijqEDrYZiPEAiq3wU=

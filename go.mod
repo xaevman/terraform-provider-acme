@@ -25,4 +25,4 @@ require (
 	software.sslmate.com/src/go-pkcs12 v0.0.0-20190209200317-47dd539968c4
 )
 
-replace github.com/go-acme/lego/v4 => github.com/xaevman/lego/v4 v4.3.2
+replace github.com/go-acme/lego/v4 => github.com/xaevman/lego/v4 v4.3.3
