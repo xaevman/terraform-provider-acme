@@ -43,9 +43,7 @@ jobs:
           key: ${{ env.cache-name}}-${{ hashFiles(format('{0}/**/*', env.cache-dir)) }}
           restore-keys: |
             ${{ env.cache-name}}-
-      - run: go mod verify
-        with:
-          path: /home/runner/go/bin
+      - run: /home/runner/go/bin/go mod verify
       - name: Import GPG key
         id: import_gpg
         uses: paultyng/ghaction-import-gpg@v2.1.0
