@@ -44,6 +44,8 @@ jobs:
           restore-keys: |
             ${{ env.cache-name}}-
       - run: go mod verify
+        with:
+          path: /home/runner/go/bin
       - name: Import GPG key
         id: import_gpg
         uses: paultyng/ghaction-import-gpg@v2.1.0
