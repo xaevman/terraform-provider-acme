@@ -14,7 +14,8 @@ default: build
 
 .PHONY: tools
 tools:
-	cd $(shell go env GOROOT) && go install github.com/go-bindata/go-bindata@3.1.3
+	cd $(shell go env GOROOT) && go install github.com/hashicorp/go-bindata/go-bindata@latest \
+	&& go install gotest.tools/gotestsum@latest
 
 .PHONY: pebble-start-install
 pebble-start-install: pebble-stop
